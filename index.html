@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge_1</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="https://kit.fontawesome.com/68b122ab3e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div id="uno">
+            <div class="icono" id="icono"><p><i class="fa-solid fa-lock fa-4x"></i></p></div>
+            <div class="botonPrincipal">
+                <button class="botonP" id="botonP" type="button">Reseteo</button>
+
+            </div>
+        </div>
+        <div id="dos">
+            <form action="">
+        <div id="mensaje">
+            <textarea name="entradaM" id="entradaM" cols="70" rows="21" placeholder="Ingrese el mensaje a encriptar" autofocus></textarea>
+            
+        </div>
+
+        <div class="advertencia">
+            <p class="mAdvertencia"><i class="fa-solid fa-circle-exclamation"></i>  Por favor utliza solamente minúsculas sin acentos</p>
+            
+        </div>
+
+        <div id="botones" class="botones">
+            <button id="encriptar" type="button">Encriptar Mensaje</button>
+            <button id="desencriptar" type="button">Desencriptar Mensaje</button>
+        </div>
+        </form>
+
+        </div>
+        <div id="tres">
+            <div id="contenedorFinal" class="contenedorFinal">
+                <div class="mensajeF">
+                    <img id="oops" src="./oops.png" alt="Al parecer no hemos poddio encontrar ninguna palabra">
+                    <h2 id="oopsM">Oops al parecer no hemos podido encontrar ninguna palabra para desencriptar aún</h2>
+                    <textarea name="mensajeFTA" id="mensajeFTA" cols="30" rows="10" readonly></textarea>
+                </div>
+                <div class="botones_CF">
+                    <button id="copiar" type="button">Copiar</button>
+                    <button id="limpiar" type="button">Limpiar bandeja</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
